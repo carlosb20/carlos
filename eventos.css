@@ -1,0 +1,50 @@
+@media (max-width:320px) {
+
+    h1 {
+
+        font-size: 15px;
+    }
+
+    a {
+        font-size: 12px;
+
+    }
+
+    body {
+
+        background-color: rgba(0, 0, 255, 0.712);
+    }
+
+    section .menu {
+
+        display: block;
+
+    }
+
+    .mate {
+
+        display: none;
+    }
+
+
+    .menu-btn {
+        cursor: pointer;
+        font-size: 20px;
+        user-select: none;
+    }
+
+    /* menu fechado */
+    section .menu2 {
+        display: none;
+        position: absolute;
+        padding-top:19px;
+       
+       
+    }
+
+    /* menu aberto */
+    .menu2.ativo {
+        display: block;
+    }
+
+}

@@ -9,6 +9,19 @@ body{
     background-color: black;
 }
 
+section .menu{
+    display: none;
+}
+
+section .menu2{
+    display: none;
+}
+
+section .menu span{
+    transform: rotate(-100deg);
+    color: rgb(233, 226, 226);
+}
+
 section{
 
     width: 100%;
@@ -49,6 +62,7 @@ section h1{
     border-bottom: 1px solid red;
    
 }
+
 
 
 
