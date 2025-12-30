@@ -37,11 +37,31 @@
     section .menu2 {
         display: none;
         position: absolute;
-        padding-top:19px;
-       
-       
+        background-color: rgba(214, 214, 230, 0.904);
+        margin-top: 50px;
+        margin-left: 10px;
+        border-radius: 0.3rem;
+        
     }
 
+    section .menu2 ul li {
+        padding: 5px;
+        list-style: none;
+        text-align: center;    
+    }
+
+    section .menu2 ul li a{
+        margin: 5px;
+        text-decoration: none;
+    }
+
+    section .menu2 ul li a:hover{
+
+        background-color: aqua;
+        padding: 4px;
+        border-radius: 0.2rem;
+        
+    }
     /* menu aberto */
     .menu2.ativo {
         display: block;
