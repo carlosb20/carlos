@@ -52,9 +52,10 @@ body {
 }
 
 /* 📱 MOBILE */
-@media (max-width: 768px) {
+@media (max-width: 415px) {
     .header h1 {
-    font-size: 0.9em;
+    font-size: 1.0em;
+    text-align: center;
     }
 
     .menu-btn {
