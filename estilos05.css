@@ -1,74 +1,83 @@
-*{
-    margin:1px;
-    padding: 0px;
+/* RESET BÁSICO */
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-body{
-
-    background-color: black;
+body {
+    font-family: Arial, sans-serif;
 }
 
-section .menu{
-    display: none;
-}
-
-section .menu2{
-    display: none;
-}
-
-section .menu span{
-    transform: rotate(-100deg);
-    color: rgb(233, 226, 226);
-}
-
-section{
-
-    width: 100%;
-    
-}
-
-section h1{
-
-    color: #f1f0f0;
-    text-align: center;
-    padding: 5px;
-}
-
-.mate{
-
+/* HEADER */
+.header {
+    background: #1e1e1e;
+    color: white;
+    padding: 15px;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.mate ul{
-    width: 100%;
-    display: flex;
-    justify-content:space-evenly;
-    padding: 5px;
+/* TÍTULO */
+.header h1 {
+    font-size: 1.2rem;
+}
+
+/* MENU */
+.menu ul {
     list-style: none;
-    
+    display: flex;
+    gap: 20px;
 }
 
-.mate li a{
-
+.menu a {
+    color: white;
     text-decoration: none;
-    color: #f1f0f0;
-    
+    font-weight: bold;
 }
 
-.mate li:hover{
-    
-    border-bottom: 1px solid red;
-   
+.menu a:hover {
+    color: #00c3ff;
 }
 
+/* BOTÃO MOBILE */
+.menu-btn {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
 
+/* 📱 MOBILE */
+@media (max-width: 415px) {
 
+    .menu-btn {
+        display: block;
+    }
 
- 
+    .menu {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background: #1e1e1e;
+        display: none;
+    }
 
+    .menu ul {
+        flex-direction: column;
+        padding: 10px 0;
+    }
 
+    .menu li {
+        padding: 10px;
+        text-align: center;
+    }
 
-
-
+    .menu.active {
+        display: block;
+    }
+}
