@@ -52,7 +52,7 @@ body {
 }
 
 /* 📱 MOBILE */
-@media (max-width: 415px) {
+@media (max-width: 768px) {
 
     .menu-btn {
         display: block;
