@@ -51,6 +51,17 @@ body {
     cursor: pointer;
 }
 
+.orrow{
+    width: 100%;
+    height: 30px;
+    background-color: #00c3ff;
+}
+
+.orrow i{
+
+    font-size:1.7rem;
+}
+
 /* 📱 MOBILE */
 @media (max-width: 415px) {
     .header h1 {
