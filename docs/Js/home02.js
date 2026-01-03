@@ -1,5 +1,5 @@
 
-import lista_material from "../lista_material.js";
+import lista_material from "./lista_material.js";
 
 console.log(lista_material,'ok')
 

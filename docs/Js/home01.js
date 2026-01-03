@@ -1,4 +1,4 @@
-import lista_material from "../lista_material.js";
+import lista_material from "./lista_material.js";
 
 const btn = document.querySelector('.menu-btn');
 const menu = document.querySelector('.menu');
