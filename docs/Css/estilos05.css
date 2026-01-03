@@ -74,7 +74,7 @@ body {
 .contdiv{
 
     position: relative; /* necessário para usar top */
-    animation: even 10s infinite; 
+    animation: even 10s linear infinite; 
 
     }
 
