@@ -56,8 +56,8 @@ lista_material[muck].forEach((e)=>{
     cont_muck.style.boxShadow = '0px 0px 10px -1px black'
     cont_muck.style.margin = '5px'
     
-    //img_.src = `${e.foto}`
-    img_.src = 'docs/assets/img/imagem02.jpg'
+    img_.src = e.foto
+    //img_.src = 'docs/assets/img/imagem02.jpg'
     img_.style.width = '200px';
     img_.style.height = '200px';
     img_.style.objectFit = 'cover';
