@@ -5,6 +5,9 @@ const menu = document.querySelector('.menu');
 const menu_a = [...document.querySelectorAll('.menu > ul > li > a')]
 const main = document.querySelector('.main_')
 
+console.log(main);
+
+
 console.log(lista_material)
 btn.addEventListener('click', () => {
     menu.classList.toggle('active');
@@ -23,7 +26,7 @@ menu_a.forEach((e)=>{
 const muck = 'Guindaste'
 const divcont_muck = document.createElement('div')
 
-divcont_muck.style.display = '100%'
+//divcont_muck.style.display = '100%'
 
 const h1_text = document.createElement('h1')
 h1_text.innerHTML = 'Muck'
