@@ -54,8 +54,9 @@ lista_material[muck].forEach((e)=>{
     img_.style.height = '200px';
     img_.src = `${e.foto}`
     
-    contdiv.appendChild(cont_muck)
     cont_muck.appendChild(img_)
+    contdiv.appendChild(cont_muck)
+    
 
 })
 
