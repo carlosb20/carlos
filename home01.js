@@ -27,7 +27,7 @@ const muck = 'Guindaste'
 const divcont_muck = document.createElement('div')
 divcont_muck.style.width = '100%';
 divcont_muck.style.display = 'block';
-divcont_muck.style.border = '2px solid red'; 
+divcont_muck.style.border = '2px solid green'; 
 
 
 const h1_text = document.createElement('h1')
@@ -55,9 +55,9 @@ lista_material[muck].forEach((e)=>{
     cont_muck.style.height = '200px'
     cont_muck.style.boxShadow = '0px 0px 10px -1px black'
     cont_muck.style.margin = '5px'
-    
+    const fotoString = e.foto;
 
-    img_.src = e.foto
+    img_.src = fotoString
     
     //img_.src = 'docs/assets/img/imagem02.jpg'
     img_.style.width = '200px';
