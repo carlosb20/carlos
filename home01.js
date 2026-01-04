@@ -52,10 +52,12 @@ lista_material[muck].forEach((e)=>{
     cont_muck.style.height = '200px'
     cont_muck.style.boxShadow = '0px 0px 10px -1px black'
     cont_muck.style.margin = '5px'
-   
+    
+    img_.src = `${e.foto}`
     img_.style.width = '200px';
     img_.style.height = '200px';
-    img_.src = `${e.foto}`
+    img_.style.objectFit = 'cover';
+    
     
     cont_muck.appendChild(img_)
     contdiv.appendChild(cont_muck)
