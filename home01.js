@@ -35,6 +35,7 @@ contdiv.setAttribute('class','contdiv')
 contdiv.style.display = 'flex'
 contdiv.style.width = '5000px'
 
+
 divcont_muck.appendChild(contdiv)
 
 lista_material[muck].map((e)=>{

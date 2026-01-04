@@ -95,6 +95,13 @@ body {
 
 /* 📱 MOBILE */
 @media (max-width: 415px) {
+    html, body {
+       
+        overflow-x: hidden;
+        
+    }
+
+
     .header h1 {
     font-size: 1.1em;
     text-align: center;
@@ -126,6 +133,8 @@ body {
     .menu.active {
         display: block;
     }
+
+    
 
     
 }
