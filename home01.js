@@ -38,7 +38,7 @@ contdiv.style.width = '5000px'
 
 divcont_muck.appendChild(contdiv)
 
-lista_material[muck].map((e)=>{
+lista_material[muck].forEach((e)=>{
 
     console.log(e.foto , 'ok')
     const cont_muck = document.createElement('div')
