@@ -25,8 +25,10 @@ menu_a.forEach((e)=>{
 // ----------------- container Muck ---------------------
 const muck = 'Guindaste'
 const divcont_muck = document.createElement('div')
+divcont_muck.style.width = '100%';
+divcont_muck.style.display = 'block';
+divcont_muck.style.border = '2px solid red'; 
 
-//divcont_muck.style.display = '100%'
 
 const h1_text = document.createElement('h1')
 h1_text.innerHTML = 'Muck'
