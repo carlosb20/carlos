@@ -82,7 +82,7 @@ body {
 
     @keyframes even {
         0% {
-            margin-left:0%;
+            margin-left:-0%;
         }
         50% {
             margin-left:-50%; /* distância que o div sobe/desce */
