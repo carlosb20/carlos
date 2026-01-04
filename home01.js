@@ -46,7 +46,7 @@ divcont_muck.appendChild(contdiv)
 
 lista_material[muck].forEach((e)=>{
 
-    console.log(e.foto , 'ok')
+    //console.log(e.foto , 'ok')
     const cont_muck = document.createElement('div')
     const img_ = document.createElement('img')
     
@@ -55,8 +55,10 @@ lista_material[muck].forEach((e)=>{
     cont_muck.style.height = '200px'
     cont_muck.style.boxShadow = '0px 0px 10px -1px black'
     cont_muck.style.margin = '5px'
-    
-    img_.src = e.foto
+    const fotoString = e.foto;
+
+    img_.src = fotoString
+    console.log(`${e.foto}`)
     //img_.src = 'docs/assets/img/imagem02.jpg'
     img_.style.width = '200px';
     img_.style.height = '200px';
