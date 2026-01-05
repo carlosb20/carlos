@@ -37,7 +37,7 @@ divcont_muck.appendChild(h1_text)
 const contdiv = document.createElement('div')
 contdiv.setAttribute('class','contdiv')
 contdiv.style.display = 'flex'
-contdiv.style.width = '5000px'
+contdiv.style.width = 'fit-content'
 contdiv.style.height = '250px'
 
 
@@ -45,7 +45,8 @@ divcont_muck.appendChild(contdiv)
 
 lista_material[muck].forEach((e)=>{
 
-    const cont_muck = document.createElement('div')    
+    const cont_muck = document.createElement('div')
+    cont_muck.setAttribute('class','cont-muck')    
     const img_ = document.createElement('img')
     
     cont_muck.style.width = '200px'

@@ -76,22 +76,36 @@ body {
 .contdiv{
 
     position: relative; /* necessário para usar top */
-    animation: even 10s linear infinite; 
+    animation: even 15s linear infinite; 
+    
     
     }
 
     @keyframes even {
-        0% {
-            margin-left:-0%;
-        }
-        50% {
-            margin-left:-50%; /* distância que o div sobe/desce */
-        }
-        100% {
-            margin-left:-100%;
-        }
-        
+    from {
+        transform: translateX(0);
     }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.contdiv:hover {
+  animation-play-state: paused;
+  
+}
+
+.cont-muck img{
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+
+.cont-muck img:hover {
+
+    transform: scale(1.1);
+   
+    
+}
 
 /* 📱 MOBILE */
 @media (max-width: 715px){
@@ -135,17 +149,20 @@ body {
         display: block;
     }
 
+    .contdiv{
+
+    position: relative; /* necessário para usar top */
+    animation: even 15s linear infinite; 
+    
+    }
     
     @keyframes even {
-        0% {
-            margin-left:-0%;
-        }
-        50% {
-            margin-left:-50%; /* distância que o div sobe/desce */
-        }
-        100% {
-            margin-left:-100%;
-        }
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
         
     }
 
