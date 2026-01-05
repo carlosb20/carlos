@@ -77,7 +77,7 @@ body {
 
     position: relative; /* necessário para usar top */
     animation: even 10s linear infinite; 
-
+    
     }
 
     @keyframes even {
@@ -94,7 +94,7 @@ body {
     }
 
 /* 📱 MOBILE */
-@media (max-width: 415px) {
+@media (max-width: 715px){
     html, body {
         margin: 0;
         padding: 0;
@@ -104,8 +104,8 @@ body {
 
 
     .header h1 {
-    font-size: 1.1em;
-    text-align: center;
+        font-size: 1.1em;
+        text-align: center;
     }
 
     .menu-btn {
@@ -136,6 +136,18 @@ body {
     }
 
     
+    @keyframes even {
+        0% {
+            margin-left:-0%;
+        }
+        50% {
+            margin-left:-50%; /* distância que o div sobe/desce */
+        }
+        100% {
+            margin-left:-100%;
+        }
+        
+    }
 
     
 }
