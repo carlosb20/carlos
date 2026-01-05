@@ -2,9 +2,15 @@
 
 const lista_material = {
     'Guindaste':[
-        {"id":"0","foto":"/docs/img/imagem02.jpg"},
-        {"id":"1","foto":"/docs/img/images.jpg"},
-        {"id":"2","foto":"/docs/img/paisagem.png"}
+
+
+        {"id":"0","foto":"docs/assets/img/imagem02.jpg"},
+        {"id":"1","foto":"docs/assets/img/images.jpg"},
+        {"id":"2","foto":"docs/assets/img/paisagem.png"},
+        {"id":"3","foto":"docs/assets/img/massa-plastica.jpg"},
+        {"id":"4","foto":"docs/assets/img/massa-poliester.jpg"},
+        {"id":"5","foto":"docs/assets/img/massa-polimento.jpg"}
+
         // {"id": "1","foto":"./img/massa-plastica.jpg","nome": "Massa Plástica ","marca": "Retoque","cont":"1kg"},
         // {"id": "2","foto":"./img/veniz-alto-solidos.jpg","nome": "Verniz Alto Sólido 8937 ","marca":"SHERWIN-WILLIAMS","cont":"900ml"},
         // {"id": "3","foto":"./img/massa-poliester.jpg","nome": "Massa Poliester", "cont":"750g" ,"marca":"SHERWIN-WILLIAMS"}
