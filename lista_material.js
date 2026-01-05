@@ -4,7 +4,7 @@ const lista_material = {
     'Guindaste':[
         {"id":"0","foto":"/docs/img/imagem02.jpg"},
         {"id":"1","foto":"/docs/img/images.jpg"},
-         {"id":"2","foto":"/docs/img/paisagem.png"}
+        {"id":"2","foto":"/docs/img/paisagem.png"}
         // {"id": "1","foto":"./img/massa-plastica.jpg","nome": "Massa Plástica ","marca": "Retoque","cont":"1kg"},
         // {"id": "2","foto":"./img/veniz-alto-solidos.jpg","nome": "Verniz Alto Sólido 8937 ","marca":"SHERWIN-WILLIAMS","cont":"900ml"},
         // {"id": "3","foto":"./img/massa-poliester.jpg","nome": "Massa Poliester", "cont":"750g" ,"marca":"SHERWIN-WILLIAMS"}
@@ -12,7 +12,7 @@ const lista_material = {
     'Muck':[
         
         {"id": "5","foto":"./img/Resina.jpg","nome": "Resina Para Laminação ","marca":"max Rubber","cont":"990g"},
-        {"id": "6","foto":"./img/kpo.jpg","nome": "Adesivo Kpo Maxived ","marca":"max Rubber","cont":"400g"},
+        {"id": "6","foto":"./img/kpjo.jpg","nome": "Adesivo Kpo Maxived ","marca":"max Rubber","cont":"400g"},
         {"id": "7","foto":"./img/colar.png","nome": "Kit de Reparo  Plásticas ","marca":"SHERWIN-WILLIAMS","cont":"75ml"},
         {"id": "8","foto":"./img/fita_larga.jpg","nome": "Fita Crepe  ","marca":"3m","cont":"48x40"},
         {"id": "9","foto":"./img/fita_fina3m.png","nome": "Fita Crepe","marca":"3m","cont":"18X40"},
