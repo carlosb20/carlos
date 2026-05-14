@@ -3,10 +3,7 @@
 const lista_material = {
     'Guindaste':[
 
-
-        {"id":"0","foto":"docs/assets/img/imagem02.jpg"},
-        {"id":"1","foto":"docs/assets/img/images.jpg"},
-        {"id":"2","foto":"docs/assets/img/paisagem.png"},
+        {"id": "0","foto":"docs/assets/img/azul_raul.jpg","nome": " Azul Ral PU 5002","marca":"SHERWIN-WILLIAMS","cont":" 3,6"}, 
         {"id":"3","foto":"docs/assets/img/massa-plastica.jpg"},
         {"id":"4","foto":"docs/assets/img/massa-poliester.jpg"},
         {"id":"5","foto":"docs/assets/img/massa-polimento.jpg"}

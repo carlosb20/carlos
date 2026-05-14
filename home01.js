@@ -30,7 +30,7 @@ const divcont_muck = document.createElement('div')
 // divcont_muck.style.border = '2px solid green'; 
 
 const h1_text = document.createElement('h1')
-h1_text.innerHTML = 'Muck'
+h1_text.innerHTML = 'Guindaste'
 h1_text.style.padding = '5px'
 divcont_muck.appendChild(h1_text) 
 
@@ -60,14 +60,13 @@ lista_material[muck].forEach((e)=>{
     img_.style.height = '200px';
     img_.style.borderRadius = '5px'
     img_.style.objectFit = 'cover';
-    
-    
+    img_.style.boxShadow = '0px 0px 10px -1px black'
+
     cont_muck.appendChild(img_)
     contdiv.appendChild(cont_muck)
     
 
 })
-
 
 main.appendChild(divcont_muck)
 
