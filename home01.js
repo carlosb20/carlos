@@ -48,14 +48,17 @@ lista_material[muck].forEach((e)=>{
     const cont_muck = document.createElement('div')
     cont_muck.setAttribute('class','cont-muck')    
     const img_ = document.createElement('img')
+    const paragrafo = document.createElement('p')
+    paragrafo.style.textAlign = 'center'
+    paragrafo.style.fontSize = '13px'
     
     cont_muck.style.width = '200px'
     cont_muck.style.height = '200px'
-    //cont_muck.style.boxShadow = '0px 0px 10px -1px black'
     cont_muck.style.margin = '5px'
     const fotoString = e.foto;
-
+    
     img_.src = fotoString
+    paragrafo.innerHTML = e.nome
     img_.style.width = '200px';
     img_.style.height = '200px';
     img_.style.borderRadius = '5px'
@@ -63,6 +66,7 @@ lista_material[muck].forEach((e)=>{
     img_.style.boxShadow = '0px 0px 10px -1px black'
 
     cont_muck.appendChild(img_)
+    cont_muck.appendChild(paragrafo)
     contdiv.appendChild(cont_muck)
     
 

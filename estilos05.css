@@ -112,6 +112,10 @@ body {
     background-color: #e8eef0;
     max-width: 100%;  
 }
+.container-01 h1{
+    text-align: center;
+   
+}
 
 /* 📱 MOBILE */
 @media (max-width: 715px){
@@ -172,11 +176,15 @@ body {
         
     }
 
-    
+    .container-01 h1 {
+        max-width: 100%;
+        text-align: center;
+    }
 }
 
 @media (max-width: 364px){
     .container-01 h1 {
+        max-width: 100%;
         font-size: 1.5em;
         text-align: center;
     }

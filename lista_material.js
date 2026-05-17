@@ -2,15 +2,22 @@
 
 const lista_material = {
     'Guindaste':[
+        // tintas
+        {"id":"0","foto":"docs/assets/img/azul_raul.jpg","nome": " Azul Ral PU 5002","marca":"SHERWIN-WILLIAMS","cont":" 3,6"}, 
+        {"id": "1","foto":"docs/assets/img/aluminio.jpg","nome": "Alumínio Opalescente para rodas Sintético","marca":"SHERWIN-WILLIAMS","cont":" 3.6  ml"},
+        {"id":"2","foto":"docs/assets/img/cinza_pu.jpg","nome": " Cinza PU 7043","marca":"SHERWIN-WILLIAMS","cont":" 3,6 ml"},
+        {"id":"41" , "foto":"docs/assets/img/preto-semi-brilho.jpg","nome":"Esmalte Sintetico Preto Semi Brilho","marca":"Brasilux","cont":"3.6ml"} ,
+        {"id": "34","foto":"docs/assets/img/cinza_grafite.jpg","nome": "Cinza Grafite","marca":"BRAZILIAN","cont":" 3,6 ml"},
+        {"id":"6","foto":"docs/assets/img/vinilico.jpg","nome": "Preto Vinilico","marca":"SHERWIN-WILLIAMS","cont":" 900 ml"},
+         {"id": "37","foto":"docs/assets/img/branco_geada.jpg","nome": "Branco Geada 2 Pu","marca":"SHERWIN-WILLIAMS","cont":" 3,6 ml"},
+        // massa
+        {"id":"3","foto":"docs/assets/img/massa-plastica.jpg","nome": "Massa Plástica ","marca": "Retoque","cont":"1kg"},
+        {"id":"4","foto":"docs/assets/img/massa-poliester.jpg","nome": "Massa Poliester", "cont":"750g" ,"marca":"SHERWIN-WILLIAMS"},
+        {"id":"5","foto":"docs/assets/img/massa-polimento.jpg","nome": "Massa Polimento", "cont":"750g" ,"marca":"SHERWIN-WILLIAMS"},
+        {"id":"6","foto":"docs/assets/img/massa-plasticaRHAI.jpg","nome": "Massa Plástica RHAI", "cont":"1kg" ,"marca":"RHAI"},
+        
 
-        {"id": "0","foto":"docs/assets/img/azul_raul.jpg","nome": " Azul Ral PU 5002","marca":"SHERWIN-WILLIAMS","cont":" 3,6"}, 
-        {"id":"3","foto":"docs/assets/img/massa-plastica.jpg"},
-        {"id":"4","foto":"docs/assets/img/massa-poliester.jpg"},
-        {"id":"5","foto":"docs/assets/img/massa-polimento.jpg"}
-
-        // {"id": "1","foto":"./img/massa-plastica.jpg","nome": "Massa Plástica ","marca": "Retoque","cont":"1kg"},
-        // {"id": "2","foto":"./img/veniz-alto-solidos.jpg","nome": "Verniz Alto Sólido 8937 ","marca":"SHERWIN-WILLIAMS","cont":"900ml"},
-        // {"id": "3","foto":"./img/massa-poliester.jpg","nome": "Massa Poliester", "cont":"750g" ,"marca":"SHERWIN-WILLIAMS"}
+        
     ],
     'Muck':[
         
@@ -27,21 +34,21 @@ const lista_material = {
         {"id": "31","foto":"./img/disco_150.jpg","nome": "Disco de Hookt Orbital 150","marca":"Norton","cont":" Discos"},
         {"id": "32","foto":"./img/disco_400.jpg","nome": "Disco de Hookt Orbital 400","marca":"Norton","cont":" Discos"},
         {"id": "33","foto":"./img/disco_220.jpg","nome": "Disco de Hookt Orbital 220","marca":"Norton","cont":" Discos"},
-        {"id": "34","foto":"./img/cinza_grafite.jpg","nome": "Cinza Grafite","marca":"BRAZILIAN","cont":" 3,6 ml"},
+        {"id": "34","foto":"./img/cinza_grafite.jpg","nome": "Cinza Grafite","marca":"BRAZILIAN","cont":" 3,6 ml"},//ok
         {"id": "35","foto":"./img/cinza_moldura.jpg","nome": "Cinza moldura nitro","marca":"Brasilux","cont":" 3,6 ml"},
-        {"id": "36","foto":"./img/azul_ral.jpg","nome": " Azul Ral PU 5002","marca":"SHERWIN-WILLIAMS","cont":" 3,6 ml"},
-        {"id": "37","foto":"./img/branco_geada.jpg","nome": "Branco Geada 2 Pu","marca":"SHERWIN-WILLIAMS","cont":" 3,6 ml"},
+        {"id": "36","foto":"./img/azul_ral.jpg","nome": " Azul Ral PU 5002","marca":"SHERWIN-WILLIAMS","cont":" 3,6 ml"},//ok
+        {"id": "37","foto":"./img/branco_geada.jpg","nome": "Branco Geada 2 Pu","marca":"SHERWIN-WILLIAMS","cont":" 3,6 ml"},//ok
         {"id": "38","foto":"./img/branco_polar.jpg","nome": "Branco polar Pu","marca":"SHERWIN-WILLIAMS","cont":" 3,6 ml"},
         {"id": "39","foto":"./img/catalizador.jpg","nome": "Catalizador para Pu","marca":"SHERWIN-WILLIAMS","cont":" 900 ml"},
-        {"id": "40","foto":"./img/cinza_pu.jpg","nome": " Cinza PU 7043","marca":"SHERWIN-WILLIAMS","cont":" 3,6 ml"},
-        {"id":"41" , "foto":"/img/preto-semi-brilho.jpg","nome":"Esmalte Sintetico Preto Semi Brilho","marca":"Brasilux","cont":"3.6ml"} 
+        {"id": "40","foto":"./img/cinza_pu.jpg","nome": " Cinza PU 7043","marca":"SHERWIN-WILLIAMS","cont":" 3,6 ml"},//ok
+        {"id":"41" , "foto":"/img/preto-semi-brilho.jpg","nome":"Esmalte Sintetico Preto Semi Brilho","marca":"Brasilux","cont":"3.6ml"} //ok
 
 
     ],
     'Empilhadeira':[
         {"id": "16","foto":"./img/tinta-preta.jpg","nome": "Tinta Sintética - Preto Fosco","marca":"Brasilux","cont":" 3,6 ml"},
         {"id": "14","foto":"./img/PRIMER-PU.jpg","nome": "Primer Pu Full 4.1.1 Anjo","marca":"Anjo","cont":" 900ml"},
-        {"id": "15","foto":"./img/aluminio.jpg","nome": "Alumínio Opalescente para rodas Sintético","marca":"SHERWIN-WILLIAMS","cont":" 3.6  ml"},
+        {"id": "15","foto":"./img/aluminio.jpg","nome": "Alumínio Opalescente para rodas Sintético","marca":"SHERWIN-WILLIAMS","cont":" 3.6  ml"},//ok
         {"id": "17","foto":"./img/thinner-comum.jpg","nome": "Thinner Comum","marca":"Anjo","cont":" 5L"},
         {"id": "18","foto":"./img/thinner-pu.jpg","nome": "Thinner PU","marca":"skylack","cont":" 5L"},
         {"id": "19","foto":"./img/lixa-1200.jpg","nome": "Lixa D Água 1200 ","marca":"3m","cont":" Folhas"},
@@ -52,14 +59,14 @@ const lista_material = {
         {"id": "31","foto":"./img/disco_150.jpg","nome": "Disco de Hookt Orbital 150","marca":"Norton","cont":" Discos"},
         {"id": "32","foto":"./img/disco_400.jpg","nome": "Disco de Hookt Orbital 400","marca":"Norton","cont":" Discos"},
         {"id": "33","foto":"./img/disco_220.jpg","nome": "Disco de Hookt Orbital 220","marca":"Norton","cont":" Discos"},
-        {"id": "34","foto":"./img/cinza_grafite.jpg","nome": "Cinza Grafite","marca":"BRAZILIAN","cont":" 3,6 ml"},
+        {"id": "34","foto":"./img/cinza_grafite.jpg","nome": "Cinza Grafite","marca":"BRAZILIAN","cont":" 3,6 ml"}, // ok
         {"id": "35","foto":"./img/cinza_moldura.jpg","nome": "Cinza moldura nitro","marca":"Brasilux","cont":" 3,6 ml"},
         {"id": "36","foto":"./img/azul_ral.jpg","nome": " Azul Ral PU 5002","marca":"SHERWIN-WILLIAMS","cont":" 3,6 ml"},
-        {"id": "37","foto":"./img/branco_geada.jpg","nome": "Branco Geada 2 Pu","marca":"SHERWIN-WILLIAMS","cont":" 3,6 ml"},
+        {"id": "37","foto":"./img/branco_geada.jpg","nome": "Branco Geada 2 Pu","marca":"SHERWIN-WILLIAMS","cont":" 3,6 ml"},//ok
         {"id": "38","foto":"./img/branco_polar.jpg","nome": "Branco polar Pu","marca":"SHERWIN-WILLIAMS","cont":" 3,6 ml"},
         {"id": "39","foto":"./img/catalizador.jpg","nome": "Catalizador para Pu","marca":"SHERWIN-WILLIAMS","cont":" 900 ml"},
-        {"id": "40","foto":"./img/cinza_pu.jpg","nome": " Cinza PU 7043","marca":"SHERWIN-WILLIAMS","cont":" 3,6 ml"},
-        {"id":"41" , "foto":"/img/preto-semi-brilho.jpg","nome":"Esmalte Sintetico Preto Semi Brilho","marca":"Brasilux","cont":"3.6ml"} 
+        {"id": "40","foto":"./img/cinza_pu.jpg","nome": " Cinza PU 7043","marca":"SHERWIN-WILLIAMS","cont":" 3,6 ml"}, //ok
+        {"id":"41" , "foto":"/img/preto-semi-brilho.jpg","nome":"Esmalte Sintetico Preto Semi Brilho","marca":"Brasilux","cont":"3.6ml"} //ok
             ]
 
     }
