@@ -9,7 +9,7 @@ const lista_material = {
         {"id":"41" , "foto":"docs/assets/img/preto-semi-brilho.jpg","nome":"Esmalte Sintetico Preto Semi Brilho","marca":"Brasilux","cont":"3.6ml"} ,
         {"id": "34","foto":"docs/assets/img/cinza_grafite.jpg","nome": "Cinza Grafite","marca":"BRAZILIAN","cont":" 3,6 ml"},
         {"id":"6","foto":"docs/assets/img/vinilico.jpg","nome": "Preto Vinilico","marca":"SHERWIN-WILLIAMS","cont":" 900 ml"},
-         {"id": "37","foto":"docs/assets/img/branco_geada.jpg","nome": "Branco Geada 2 Pu","marca":"SHERWIN-WILLIAMS","cont":" 3,6 ml"},
+         {"id": "37","foto":"docs/assets/img/Branco_geada.jpg","nome": "Branco Geada 2 Pu","marca":"SHERWIN-WILLIAMS","cont":" 3,6 ml"},
         // massa
         {"id":"3","foto":"docs/assets/img/massa-plastica.jpg","nome": "Massa Plástica ","marca": "Retoque","cont":"1kg"},
         {"id":"4","foto":"docs/assets/img/massa-poliester.jpg","nome": "Massa Poliester", "cont":"750g" ,"marca":"SHERWIN-WILLIAMS"},
